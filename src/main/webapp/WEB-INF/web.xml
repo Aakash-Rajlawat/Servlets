@@ -4,4 +4,17 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>greet</servlet-name>
+    <servlet-class>greetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>greet</servlet-name>
+    <url-pattern>/greet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index2.jsp</welcome-file><!-- Runs when index is missing -->
+
+  </welcome-file-list>
 </web-app>
