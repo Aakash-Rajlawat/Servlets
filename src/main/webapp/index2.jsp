@@ -8,6 +8,6 @@
 
 <html>
 <body>
-    <h1>HEllo from index2.</h1>
+    <h1>WE'RE CURRENTLY DOWN</h1>
 </body>
 </html>
